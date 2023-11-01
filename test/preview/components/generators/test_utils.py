@@ -1,6 +1,6 @@
 import pytest
 
-from haystack.preview.components.generators.openai.gpt import default_streaming_callback
+from haystack.preview.components.generators.utils import default_streaming_callback
 from haystack.preview.components.generators.utils import serialize_callback_handler, deserialize_callback_handler
 
 
