@@ -42,7 +42,7 @@ jobs:
           git push -u origin bump-version
           gh pr create -B main -H bump-version --title 'Bump unstable version' --body 'Part of the release process' --label 'ignore-for-release-notes'
 
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
